@@ -35,6 +35,13 @@ background-color: #ebf2ff;
     border: none;
     padding: 12px;
     border-radius: 6px;
+    font-weight: 600;
+}
+
+.nav__item:hover{
+  border: 2px solid;
+  color: #0D9276;
+  cursor: pointer;
 }
 
 @media (min-width:768px) {
@@ -42,5 +49,14 @@ background-color: #ebf2ff;
     justify-content: space-between;
 padding: 10px 30px;
   }
+  @media (min-width:1024px) {
+    .navbar__brand{
+      justify-content: space-between;
+  width: 150px;
+    }
+    .nav__item {
+      padding: 20px;
+      font-size: 20px;
+    }
 
 }
